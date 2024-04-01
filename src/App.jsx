@@ -8,6 +8,7 @@ import StatisticsSection from './sections/StatisticsSection';
 import SettingsSection from './sections/SettingsSection';
 import Dashboard from "./pages/Dashboard"
 import ReceiptPage from "./pages/ReceiptPage"
+import LoginPage from "./pages/LoginPage"
 
 const App = () => {
   return (
@@ -21,8 +22,9 @@ const App = () => {
             <Route path="/allocation" element={<AllocationSection />} />
             <Route path="/statistics" element={<StatisticsSection />} />
             <Route path="/settings" element={<SettingsSection />} />
+            </Route>
             <Route path="/receiptpage" element={<ReceiptPage />} />
-          </Route>
+          
         </Routes>
       </div>
     </Router>
