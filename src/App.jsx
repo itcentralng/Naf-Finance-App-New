@@ -9,6 +9,9 @@ import SettingsSection from './sections/SettingsSection';
 import Dashboard from "./pages/Dashboard"
 import ReceiptPage from "./pages/ReceiptPage"
 import LoginPage from "./pages/LoginPage"
+import AllocationPage from './pages/AllocationPage';
+import ReallocationPage from './pages/ReallocationPage';
+import MonitoringPage from './pages/MonitoringPage';
 
 const App = () => {
   return (
@@ -24,10 +27,14 @@ const App = () => {
             <Route path="/settings" element={<SettingsSection />} />
             </Route>
             <Route path="/receiptpage" element={<ReceiptPage />} />
+            <Route path="/allocationpage" element={<AllocationPage />} />
+            <Route path="/reallocationpage" element={<ReallocationPage />} />
+            <Route path="/monitoringpage" element={<MonitoringPage />} />
           
         </Routes>
       </div>
     </Router>
+    // <MonitoringPage />
   );
 }
 
