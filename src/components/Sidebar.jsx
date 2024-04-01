@@ -20,22 +20,11 @@ const Sidebar = () => {
           <ListItemIcon><Dashboard /></ListItemIcon>
           <ListItemText primary="Dashboard" />
         </ListItem>
-        <ListItem button component={Link} to="/receipts">
+        <ListItem button component={Link} to="/receiptpage">
           <ListItemIcon><Receipt /></ListItemIcon>
           <ListItemText primary="Receipts" />
         </ListItem>
-        {/* <ListItem button component={Link} to="/allocation">
-          <ListItemIcon><AssignmentTurnedIn /></ListItemIcon>
-          <ListItemText primary="Allocation" />
-        </ListItem>
-        <ListItem button component={Link} to="/statistics">
-          <ListItemIcon><BarChart /></ListItemIcon>
-          <ListItemText primary="Statistics" />
-        </ListItem>
-        <ListItem button component={Link} to="/settings">
-          <ListItemIcon><Settings /></ListItemIcon>
-          <ListItemText primary="Settings" />
-        </ListItem> */}
+        
       </List>
     </Drawer>
   );
